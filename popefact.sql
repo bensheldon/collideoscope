@@ -23,7 +23,7 @@ DROP TABLE IF EXISTS `fact`;
 CREATE TABLE `fact` (
   `id` int(10) NOT NULL auto_increment,
   `uid` int(10) NOT NULL default '0',
-  `fact` varchar(4) NOT NULL,
+  `fact` varchar(100) NOT NULL,
   `fid` int(10) default NULL,
   `timestamp` timestamp NOT NULL default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP,
   `ip` varchar(255) default NULL,

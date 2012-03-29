@@ -75,8 +75,8 @@ function test(&$var, $arg = NULL) {
 function load_form(&$var, $arg = NULL) {
 
 	$output .= '
-	<label>Please enter a four letter word: </label>
-	<input class="fact-input" type="text" id="fact-input" name="fact-input" maxlength="4" />
+	<label>Please enter a word: </label>
+	<input class="fact-input" type="text" id="fact-input" name="fact-input" maxlength="20" />
 	<input type="submit" class="fact-input" id="fact-submit" name="fact-submit" value="Go" />
 	'; 
 	
@@ -247,8 +247,8 @@ LIMIT 1
 			return FALSE; 
 		}
 	}
-	if (!ctype_alnum($word) || strlen($word) != 4) {
-		set_message("Please only submit a valid four-letter word.", 'error'); 
+	if (!ctype_alnum($word)) {
+		set_message("Whoops, your word must be only made of letters!", 'error'); 
 		return FALSE; 
 	}
 	
