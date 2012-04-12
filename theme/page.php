@@ -16,7 +16,8 @@
 		<h2>Who made this?</h2>
 		<p>
 			Originally designed and developed as POPEFACT by <a href="http://decielo.com" target="_blank">Carlos d'Avis</a></br>
-			Modifications by <a href="http://island94.org" target="_blank">Ben Sheldon</a>
+			Modifications by <a href="http://island94.org" target="_blank">Ben Sheldon</a></br>
+			Get the code on Github: <a href="https://github.com/carlosdavis/Popefact-PHP" target="_blank">POPEFACT</a> / <a href="https://github.com/bensheldon/collideoscope" target="_blank">COLLIDEOSCOPE</a>
 		</p>
 		<a class="close">close</a>
 	</div>
