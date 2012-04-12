@@ -53,7 +53,7 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 		<?php endif; ?>
 	</div>
 	<div id="sticky">
-		<a href="http://popefact.com" class="home">H</a>
+		<a href="/" class="home">H</a>
 		<a href="/view" class="view">*</a>
 		<a class="help">?</a>
 	</div>
