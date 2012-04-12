@@ -1,7 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 	<head>
-		<title><?php if ($title) print $title . " : "; ?>PopeFact.com</title>
+		<title><?php if ($title) print $title . " : "; ?>COLLIDEOSCOPE</title>
 		<link rel="stylesheet" type="text/css" href="/v1.css">
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"></script>
 		<script src="/pf.js" type="text/javascript"></script>
@@ -10,23 +10,20 @@
 	<div id="help">
 		<h2>Why Isn't My Word Showing Up?</h2>
 		<p>
-			You need to wait for someone else to submit a word and complete the POPEFACT. 
-			Also, try the * link to <a href="/view">view all POPEFACTs</a>. 
+			You need to wait for someone else to submit a word and complete the COLLIDEOSCOPE. 
+			Also, try the * link to <a href="/view">view all COLLIDEOSCOPE</a>. 
 		</p>
 		<h2>Help! What the heck is this?</h2>
 		<ol>
 			<li>Person A writes a four-letter word across the knuckles of either hand of the recipient.</li>
 			<li>Person B, without looking at the first word, writes a four-letter word across the knuckles of the other hand of the recipient.</li>
-			<li>Recipient makes two fists and bangs his or her hands together with an exclamatory noise to reveal his or her new POPEFACT &ldquo;tattoo.&rdquo;</li>
+			<li>Recipient makes two fists and bangs his or her hands together with an exclamatory noise to reveal his or her new COLLIDEOSCOPE &ldquo;tattoo.&rdquo;</li>
 		</ol>
 		<p>
-			Designed and developed by <a href="http://decielo.com" target="_blank">Carlos d'Avis</a><br />
+			Originally designed and developed as POPEFACT by <a href="http://decielo.com" target="_blank">Carlos d'Avis</a></br>
+			Modifications by <a href="http://island94.org" target="_blank">Ben Sheldon</a><br />
 			Inspired by <acronym title="Adventure Intrigue Romance">AIR</acronym>
 			and the ballerz from Santa Cruz
-		</p>
-		<p>
-			<a href="http://www.flickr.com/photos/tags/popefact/" target="_blank">POPEFACT Photos on Flickr</a><br />
-			<a href="http://mustacheandmonocle.com" target="_blank">Mustache and Monocle</a>
 		</p>
 		<a class="close">close</a>
 	</div>
@@ -62,7 +59,7 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 	</div>
 	<?php if ($count) : ?>
 	<div id="footer">
-		Displaying <?php print $count; ?> <?php print ($count > 1) ? 'POPEFACTs' : 'POPEFACT'; ?> 
+		Displaying <?php print $count; ?> <?php print ($count > 1) ? 'COLLIDEOSCOPEs' : 'COLLIDEOSCOPE'; ?> 
 	</div>
 	<?php endif; ?>
 	<script type="text/javascript">
