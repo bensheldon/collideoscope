@@ -31,19 +31,6 @@
 		</div>
 		<?php endif; ?>
 		<br />
-		<?php if (0): ?>
-		<script type="text/javascript"><!--
-google_ad_client = "pub-6882762719785497";
-/* POPE FACT 728x90 on 9/11/09 */
-google_ad_slot = "9378695667";
-google_ad_width = 728;
-google_ad_height = 90;
-//-->
-</script>
-<script type="text/javascript"
-src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-</script>
-		<?php endif; ?>
 	</div>
 	<div id="sticky">
 		<a href="/" class="home">H</a>
@@ -55,14 +42,5 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 		Displaying <?php print $count; ?> <?php print ($count > 1) ? 'COLLIDEOSCOPEs' : 'COLLIDEOSCOPE'; ?> 
 	</div>
 	<?php endif; ?>
-	<script type="text/javascript">
-		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-	</script>
-	<script type="text/javascript">
-		try {
-		var pageTracker = _gat._getTracker("UA-2778220-18");
-		pageTracker._trackPageview();
-		} catch(err) {}</script>
 </body>
 </html>
