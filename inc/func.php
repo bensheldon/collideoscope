@@ -213,11 +213,11 @@ VALUES (%d, '%s', %d, '%s', '%s')
 	$result = mysql_query($query);
 	
 	if ($result) {
-		set_message('Fact word submitted successfully');
+		set_message('Word submitted successfully');
 		$var['template_file'] = 'op'; 
 		load_form($var); 
 	} else {
-		set_message('Fact failed to submit. Please try again.'); 
+		set_message('Word failed to submit. Please try again.'); 
 		load_form($var); 
 	}
 	

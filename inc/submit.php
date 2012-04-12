@@ -44,7 +44,7 @@ VALUES (%d, '%s', %d, '%s', '%s')
 	
 	if ($result) return TRUE; 
 	
-	set_message('Fact failed to submit. Please try again.', 'error'); 
+	set_message('Word failed to submit. Please try again.', 'error'); 
 	
 	return FALSE; 
 }
