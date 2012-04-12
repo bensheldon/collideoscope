@@ -13,17 +13,10 @@
 			You need to wait for someone else to submit a word and complete the COLLIDEOSCOPE. 
 			Also, try the * link to <a href="/view">view all COLLIDEOSCOPE</a>. 
 		</p>
-		<h2>Help! What the heck is this?</h2>
-		<ol>
-			<li>Person A writes a four-letter word across the knuckles of either hand of the recipient.</li>
-			<li>Person B, without looking at the first word, writes a four-letter word across the knuckles of the other hand of the recipient.</li>
-			<li>Recipient makes two fists and bangs his or her hands together with an exclamatory noise to reveal his or her new COLLIDEOSCOPE &ldquo;tattoo.&rdquo;</li>
-		</ol>
+		<h2>Who made this?</h2>
 		<p>
 			Originally designed and developed as POPEFACT by <a href="http://decielo.com" target="_blank">Carlos d'Avis</a></br>
-			Modifications by <a href="http://island94.org" target="_blank">Ben Sheldon</a><br />
-			Inspired by <acronym title="Adventure Intrigue Romance">AIR</acronym>
-			and the ballerz from Santa Cruz
+			Modifications by <a href="http://island94.org" target="_blank">Ben Sheldon</a>
 		</p>
 		<a class="close">close</a>
 	</div>
