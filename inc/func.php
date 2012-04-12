@@ -59,7 +59,7 @@ function home(&$var) {
 	load_form(&$var);
 	view(&$var, -1);  
 	
-	$var['title'] = 'POPE FACT';  
+	$var['title'] = 'COLLIDEOSCOPE';  
 	$var['ads'] = TRUE; 
 	$var['template_file'] = 'page'; 
 }
@@ -157,8 +157,8 @@ AND (a.id = %d OR b.id = %d)
 		$count++; 
 	} 
 	if (empty($list)) {
-		set_message('No Pope Fact Found', 'error'); 
-		$title = 'No Pope Fact Found'; 
+		set_message('No COLLIDEOSCOPE Found', 'error'); 
+		$title = 'No COLLIDEOSCOPE Found'; 
 	} else {
 		$output = '<div class="popefacts">' . $list . '</div>'; 
 	}
